@@ -1,0 +1,140 @@
+
+body {
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+header{
+    background-color: #39548a;
+    color: white;
+    height: 50px;
+    text-align: left;
+    margin: auto;
+    /*padding-top: 20px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;    
+
+}
+
+
+
+i {
+    margin: 8px 5px;
+}
+
+header div p{
+    margin-top: 12px;
+    font-size: 1.2em;
+}
+
+header a:link {
+    color: white;
+  }
+
+  header   a:visited {
+    color: white;
+  }  
+  
+  header a:hover {
+    color: grey;
+  }
+  
+  nav {
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #faf3f2;    
+    
+}
+
+nav a{
+    color: #212020;
+    text-decoration: none;
+    margin: 0px 10px;    
+}
+
+
+nav a:link {
+    color: 212020;
+  }
+
+  nav   a:visited {
+    color: 212020;
+  }  
+  
+  nav a:hover {
+    color: grey;
+  }
+
+  nav div{
+      padding-top: 10px;
+      text-align: right;
+
+  }
+
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #39548a;
+    color: white;
+    text-align: center;
+  }
+
+
+.consulta {
+    width: 150px;
+    height: 120px;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    word-wrap: break-word;
+    padding-top: 30px;
+    margin: 20px;
+    
+}    
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .consulta{
+        background-color:#9966ff;
+        color: whitesmoke;
+    }
+  }  
+
+@media only screen and (max-width: 576px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .consulta{
+        background-color: #39548a;
+        color: whitesmoke;
+        width: 100%;
+        margin: 5px;
+    }
+  }
+
+
+ 

@@ -1,0 +1,129 @@
+body {
+    background: #39548a url(/img/login-body-bg.png) no-repeat top;
+    font-family: 'Zen Maru Gothic', sans-serif;
+
+}
+
+
+#main-login{
+    background-color: #fff;
+    height: 320px;
+    width: 570px;
+    margin: auto;
+    padding: 40px;
+    margin-top: 96px;
+    border-radius: 6px; 
+}
+
+#login-footer{
+    color: ghostwhite;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 0.7em;
+}
+
+#login-header{
+    /* background-color: gold; */
+    width: 570px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#login-logo{
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+#login-app-title{
+    color: #bbb;
+    /* background-color: hotpink; */
+    /* padding: 10px; */
+    text-align: center;
+    line-height: 56px;
+    height: 56px;    
+}
+
+#login-main {
+    height: 263px;
+     /* background-color: khaki;  */
+}
+
+#login-titles{
+    height: 90px;
+    /* background-color: lavender; */
+}
+
+#login-main-title{
+    height: 25px;
+    padding-top: 20px;
+    padding-left:20px;    
+    font-size: 1.2em;
+    color: #39548a;
+    
+}
+
+#login-main-subtitle{
+    height: 25px;
+    padding-bottom : 20px;    
+    padding-left:20px;    
+    font-size: 1em;
+    color: #bbb;
+}
+
+#login-form{
+    height: 173px;
+    padding-left: 20px;
+}
+
+#username{
+    /* padding: 0px; */
+}
+
+#username > input {
+    border-radius: 6px;
+    border-width: 0px;
+    background: #eee;
+    height: 35px;
+    margin-top: 10px;
+    width: 30%;    
+    padding-left: 20px;    
+}
+
+#pass > input {
+    border-radius: 6px;
+    border-width: 0px;
+    background: #eee;
+    height: 35px;
+    margin-top: 10px;
+    width: 30%;
+    padding-left: 20px;    
+}
+
+
+
+
+
+#submit-button{
+    background: #4e81c6;
+    color: white;
+    height: 35px;
+    width: 70px;
+    border: 0px;
+    border-radius: 6px;
+    
+}
+
+input[type=text], select {
+    /* width: 100%;     */
+    /* display: inline-block; */
+    /* border: 1px solid #ccc; */
+    /* border-radius: 4px; */
+    /* box-sizing: border-box; */
+    /* margin: 8px 0; */
+    
+  }

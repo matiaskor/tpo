@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPO - Codo a Codo - Mk</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
+
+    <script>
+        function validateForm() {
+            let x = document.forms["login-form"]["username"].value;
+            //alert(x);
+            let y = document.forms["login-form"]["pass"].value;
+          if ((x != "admin") || (y != "admin")) {// or y !="admin") {
+            alert("Proba ingresando con admin/admin");
+            return false;
+          }
+        }
+        </script>
+
+</head>
+
+<body>
+    <div id="main-login">
+        <div id="login-container">
+            <div id="login-header">
+                <div>
+                    <img id="login-logo" src="../img/logo_codo_a_codo.jpg" alt="Logo de Codo a Codo">
+                </div>
+                <div id="login-app-title">Codo a Codo - Consultas</div>
+            </div>
+            <div id="login-main">
+                <div id="login-titles">
+                    <div id="login-main-title">Codo a Codo - Comision 2167</div>
+                    <div id="login-main-subtitle">Portal de Consultas</div>
+                </div>
+                <div id="login-form">
+                    <form name= "login-form" action="/dashboard.html" onsubmit="return validateForm()" method="get">
+                        <div id="username">
+                            <input type="text" id="username" name="username" placeholder="Username..."><br>
+                        </div>
+                        <div id="pass">
+                            <input type="password" id="pass" name="pass" placeholder="Password..."><br><br>
+                        </div>
+                        <div  id="submit">
+                            <input id="submit-button"type="submit" value="Log In">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="login-footer">Creado por Matias Korkis para <b>Codo a Codo 2021</b> - TPO</div>
+</body>
+
+</html>
